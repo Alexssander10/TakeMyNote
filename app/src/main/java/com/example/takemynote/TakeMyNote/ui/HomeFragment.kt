@@ -44,7 +44,6 @@ class HomeFragment : Fragment() {
     // Programação do evento de clique no aplicativo
     private fun eventClick() {
 
-
         binding.imgbtnLogout.setOnClickListener {
             logoutUser()
         }
