@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/drawable/background_edit_txt.xml" value="0.2225" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/drawable/bg_Note.xml" value="0.1515" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.1515" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/drawable/ic_logo.xml" value="0.1515" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/bottom_sheet.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_account_recovery.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_doing.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_done.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_form_note.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_register.xml" value="0.17670682730923695" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_splash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/fragment_todo.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Alexssander/AndroidStudioProjects/TakeMyNote/app/src/main/res/layout/item_adapter.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

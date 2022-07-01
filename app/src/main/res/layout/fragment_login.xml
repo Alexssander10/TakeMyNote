@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".TakeMyNote.ui.Authentication.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Utilizando o match_parent o objeto ocupará todo o espaço disponível-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_email"
+            android:textColor="@color/white"/>
+
+        <!-- Esse edit text está usando outro xml para definir o estilo do novo campo-->
+        <EditText
+            android:id="@+id/edt_Email_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu email"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_edit_txt"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_password"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/edt_Password_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua senha"
+            android:inputType="textPassword"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_edit_txt"
+            android:padding="14dp"/>
+
+        <!-- Utilizando o AllCaps em false a escrita do botão não ficará toda em caixa alta-->
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_edit_txt"
+            app:backgroundTint="@null"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_btn_login_fragment"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_700"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/btn_Register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/text_register_account"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/btn_Recover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/text_recover_login_fragment"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            tools:visibility="visible"
+            android:indeterminateTint="@color/white"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

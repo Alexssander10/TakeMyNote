@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "842786175193",
+    "firebase_url": "https://takemynote-f1dc5-default-rtdb.firebaseio.com",
+    "project_id": "takemynote-f1dc5",
+    "storage_bucket": "takemynote-f1dc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842786175193:android:707ccc0c672e41bf29a6c8",
+        "android_client_info": {
+          "package_name": "com.example.takemynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842786175193-degr3vnd0m606b4fenv8lpmp27r4q5ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYxR_Cb-w8x-urf6oXbitLHPy7SPS-OXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842786175193-degr3vnd0m606b4fenv8lpmp27r4q5ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

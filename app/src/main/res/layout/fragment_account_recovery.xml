@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TakeMyNote.ui.Authentication.AccountRecoveryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                app:navigationIcon="@drawable/ic_back">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Recuperar conta"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+            <!-- Utilizando o match_parent o objeto ocupará todo o espaço disponível-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_email"
+                android:textColor="@color/white" />
+
+            <!-- Esse edit text está usando outro xml para definir o estilo do novo campo-->
+            <EditText
+                android:id="@+id/edt_Email_Recovery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/background_edit_txt"
+                android:inputType="textEmailAddress"
+                android:hint="Digite seu email"
+                android:padding="14dp"
+                android:textSize="14sp" />
+
+            <!-- Utilizando o AllCaps em false a escrita do botão não ficará toda em caixa alta-->
+            <Button
+                android:id="@+id/btn_Recovery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/background_edit_txt"
+                android:text="@string/text_btn_recover_account_fragment"
+                android:textAllCaps="false"
+                android:textColor="@color/purple_700"
+                app:backgroundTint="@null" />
+
+            <ProgressBar
+                android:id="@+id/progressBarRecovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"
+                tools:visibility="visible"
+                android:indeterminateTint="@color/white"/>
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
